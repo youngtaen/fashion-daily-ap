@@ -1,0 +1,26 @@
+{
+  "name": "fashion-daily-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AI-powered fashion recommendation app based on weather and trends",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  },
+  "keywords": [
+    "fashion",
+    "ai",
+    "weather",
+    "trending"
+  ],
+  "author": "Fashion Daily",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "@anthropic-ai/sdk": "^0.24.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
